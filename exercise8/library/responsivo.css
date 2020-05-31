@@ -1,0 +1,54 @@
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+/*     #container {
+        background-color: blue;
+    } */
+
+    .desktop, .mobile {
+        display: none;
+    }
+
+    .tablet {
+        display: block;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        color: #B01B1B;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    .moral {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 787px) {
+    .desktop, .tablet {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    h1 {
+        font-size: 1.3em;
+        color: #8C0F0F;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 1em;
+        line-height: 1.3em;
+    }
+}

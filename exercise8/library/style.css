@@ -1,36 +1,51 @@
 /* ==========================================================================
-
 // Stylesheet for Build Lesson 8
 // Author: KU MarComm - Dave G
 // Version: 1.0 - Last Updated: May 16, 2018
-
 ========================================================================== */
 
 /* MAIN SITE STYLING ===================================================== */
 
 body {
   font-family: helvetica,arial, sans-serif;
+  background-color: #f0f0f0;
 }
 
 h1 {
-
+  font-size: 2em;
+  color: #DF0606;
 }
 
 h2 {
-
+  font-size: 1.5em;
+  color: gray;
 }
 
 p {
-
+  font-size: 1.2em;
+  line-height: 1.4em;
 }
 
 #container {
-
+  width: 60%;
+  margin: 0 auto;
+  padding: 3% 3%;
+  background-color: #fff;
 }
 
 img {
   object-fit: cover;
   width: 100%;
+}
+
+.moral {
+  font-weight: bold;
+  display: inline;
+  border-bottom: 1px solid #000;
+}
+
+.tablet, .mobile {
+  display: none;
 }
 
 /* RESPONSIVE STUFF GOES HERE ===================================================== */
